@@ -14,6 +14,9 @@ class Welcome extends CI_Controller {
 		//Url CONNTROLADOR/METODO/Argmentos
 	}
 	public function vistas(){
-		$this->load->view('vistas');
+		$data['title'] = 'Desde las vistas';
+		$data['list'] = array('negro','blanco');
+		$this->load->view('vistas', $data);
+		$this->load->view('footer');
 	}
 }

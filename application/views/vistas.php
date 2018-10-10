@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Vista</h1>
+    <h1><?=$title ?></h1>
+    <ul>
+        <?php foreach($list as $itme) : ?>
+            <li><?= $itme ?></li>
+        <?php endforeach; ?>
+    </ul>
 </body>
 </html>
