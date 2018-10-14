@@ -6,7 +6,7 @@
                 'url' => base_url(),
             ),array(
                 'title' => 'Register',
-                'url' => base_url('index.php/register'),
+                'url' => base_url('/register'),
             ),
         );
     }
